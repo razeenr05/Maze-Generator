@@ -1,6 +1,5 @@
 # Maze Generator and Solver
-**Project created for CS2336**
-Console based maze generator and solver made with Java that draws the grid with simple ASCII characters. Builds a random perfect maze with Prim-style carving and finds a route using depth first search.
+Console based maze generator and solver made with Java that draws the grid with simple ASCII characters. Builds a random perfect maze with Prim-style carving and finds a route using depth first search. This project was created for CS2336.
 
 ## Design choices
 - **Implicit grid graph:** Two boolean wall arrays (`horizontalWalls`, `verticalWalls`) let me check openings in O(1) time without an adjacency matrix. Neighbors are derived from open walls at runtime instead of storing a full adjacency list.
